@@ -14,11 +14,14 @@ git push
 */
 
 
-// ukol 2a
+// ukol 2
 document.body.innerHTML += "<p><b>ukol 2a:</p>"
 
 const hodinovka = Number(prompt("Zadejte hodinovou sazbu"))
-const pocetHodinDenne = Number(prompt("Zadejte pocet hodin, ktere denne pracujete"))
-const pocetDnuMesic = Number(prompt("ZAdejte, kolik hodin v mesici pracujete"))
+const pocetHodinDenne = Number(prompt("Zadejte pocet hodin, ktere denne pracujete", "8"))
+const pocetDnuMesic = Number(prompt("Zadejte, kolik hodin v mesici pracujete", "21"))
 
 document.body.innerHTML = "<p>Hruba mzda: " + hodinovka * pocetHodinDenne * pocetDnuMesic + "</p>"
+
+// OBJEKTY
+//ukol 3
